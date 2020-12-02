@@ -1,25 +1,67 @@
-did<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<title>07 Buttons, Alert, Glyphicon and Table</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>07 Buttons, Alert, Glyphicon and Table</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-6"></div>
-        
-        </div>
-    
-    
-    
-    
-    </div>
-</body>
-
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6">
+					<h5>It's hard to remember all the boostrap elements</h5>
+					<p>The rest seems easy because it was very well thought! Don't you agree?</p>
+					<button type="button" class="btn btn-success">Yes</button>
+					<button type="button" class="btn btn-danger">No</button>
+				</div>
+				<div class="col-6">
+					<div class="alert alert-warning alert-dismissible fade show" role="alert">
+						<i class="fas fa-exclamation-circle"></i> If you don't agree some of these people may slap you in the face:
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th scope="col">First</th>
+								<th scope="col">Last</th>
+								<th scope="col">Email</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
