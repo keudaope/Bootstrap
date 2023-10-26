@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Kaboom"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "exercises"
+	}
+}
